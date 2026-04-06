@@ -6,7 +6,7 @@ resource "aws_instance" "Prometheus" {
 #   instance_type = "t3.medium"
 
   # need more for terraform  
-#   root_block_device {
+#   root_block_device { 
 #     volume_size = 50
 #     volume_type = "gp3" # or "gp2", depending on your preference
 #   }
