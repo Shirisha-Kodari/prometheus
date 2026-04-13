@@ -1,6 +1,6 @@
     
 resource "aws_instance" "Prometheus" {  
-  ami           = local.ami_id
+  ami           = local.ami_id 
   instance_type = "t3.micro"
   vpc_security_group_ids = [aws_security_group.allow_all_prometheus.id]
 #   instance_type = "t3.medium"
