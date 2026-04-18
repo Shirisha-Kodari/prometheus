@@ -5,7 +5,7 @@ global:
   # scrape_timeout is set to the global default (10s).
 
 # Alertmanager configuration
-alerting: 
+alerting:  
   alertmanagers:
     - static_configs:
         - targets:
