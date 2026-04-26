@@ -6,7 +6,7 @@ global:
  
 # Alertmanager configuration   
 alerting:     
-  alertmanagers:
+  alertmanagers: 
     - static_configs:
         - targets:
           # - alertmanager:9093
